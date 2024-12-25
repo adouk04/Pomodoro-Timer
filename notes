@@ -1,0 +1,82 @@
+<!--THINGS TO NOTE-->
+<!--the content inside the <body> section will be displayed in a browser-->
+<!--the content inside <title> element will display in the browsers title bar or in the page's tab-->
+
+<!--The <!DOCTYPE html> declaration defines that this document is an HTML5 document (must start with doc type)-->
+<!DOCTYPE html>
+
+<!--The <html> element is the root element of an HTML page (also how the document begins itself)-->
+<html>
+
+    <!--The <head> element contains meta information about the HTML page-->
+    <head>
+
+        <!--The <title> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)-->
+        <title>
+            Page Title
+        </title>
+
+        <!-- Link to the CSS File -->
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <!--The <body> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.-->
+    <!--also the viewable part of the html doc-->
+    <body>
+
+        <!--The <h1> element defines a large heading-->
+        <!--<tagname style="property:value;">-->
+        <h1 class="center">
+            First Heading
+        </h1>
+
+        <!--The <p> element defines a paragraph-->
+        <p title="link to website">
+
+            <!-- Italics & subscript & bold & strong & mark & del & emphasized & small & sup & ins-->
+            <i> <mark> Click </mark> <del> the </del> <b> link </b> 
+                <sup> below </sup> <sub> to go </sub> <ins> to </ins>
+                <em> the </em> <strong> W3 School's </strong> 
+                <small> HTML website </small> 
+            </i>
+
+            <!-- Breaks the text line-->
+            <br>
+            
+            <!-- Links to website-->
+            <a href = "https://www.w3schools.com/html/html_basic.asp"> Click this! </a>
+
+        </p>
+        
+        <!--defines thematic break/seperates content-->
+        <hr>
+
+        <h2 class = "center">
+            Centered Second Heading
+        </h2>
+
+        <h3 class = "center">
+            Third Heading
+        </h3>
+
+        <p>
+            From W3 Schools website:
+        </p>
+
+        <!--for quotes-->
+        <blockquote cite="https://www.w3schools.com/html/html_quotation_elements.asp">
+            learn html and then css and then JS
+        </blockquote>
+
+    </body>
+
+</html> 
+
+<!--
+css notes
+.center {
+    color:black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}-->
